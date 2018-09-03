@@ -1,0 +1,20 @@
+{
+    "name": "nuc/gaea-sdk",
+    "description": "library for gaea mq platform",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lunaczp",
+            "email": "moon.zhp@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gaea\\": "src/"
+        }
+    }
+}
